@@ -1,0 +1,23 @@
+/* .left-nav {
+   
+} */
+
+.left-nav-header {
+    display: flex;
+    height: 80px;
+    background-color: #002140;
+    align-items: center;
+
+}
+
+.left-nav-header img {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+.left-nav-header h1 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 80px;
+}
