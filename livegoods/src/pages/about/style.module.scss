@@ -1,0 +1,77 @@
+.me-header {
+    height: 3rem;
+    background: #ff5555;
+    position: relative;
+
+    .user-img {
+        text-align: center;
+        padding-top: 0.8rem;
+
+        i {
+            font-size: 1rem;
+            color: #fff;
+        }
+    }
+
+    >i {
+        font-size: 0.4rem;
+        color: #fff;
+        position: absolute;
+        top: 0.2rem;
+        right: 0.2rem;
+    }
+}
+
+// 导航分类
+.list {
+    display: flex;
+    margin: 0.2rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    padding-bottom: 0.3rem;
+    flex-wrap: wrap;
+
+    >li {
+        font-size: 0.3rem;
+        // flex: 1;
+        width: 25%;
+        text-align: center;
+        padding-top: 0.3rem;
+
+        >i {
+            border: 0.03rem solid #ff5555;
+            display: inline-block;
+            padding: 0.2rem;
+            border-radius: 50%;
+            font-size: 0.4rem;
+            color: #ff5555;
+        }
+
+        >p {
+            margin-top: 0.1rem;
+        }
+    }
+}
+
+//@at-root
+.box {
+    h3 {
+        padding: 0.2rem;
+    }
+
+    .wrapper {
+        >li {
+            font-size: 0.3rem;
+            // flex: 1;
+            width: 33.33333%;
+            text-align: center;
+            padding-top: 0.4rem;
+
+            >i {
+                border: none;
+                font-size: 0.6rem;
+                padding: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+ .topHeader {
+     height: 1rem;
+     background-color: #ff5555;
+     color: #fff;
+     position: relative;
+ }
+
+ span {
+     position: absolute;
+     top: 0.3rem;
+     left: 0.3rem;
+ }
+
+ .title {
+     text-align: center;
+     line-height: 1rem;
+     font-size: 0.36rem;
+ }

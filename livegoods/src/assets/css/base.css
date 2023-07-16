@@ -1,0 +1,36 @@
+/* 直接导入网址来导入字体图标 */
+@import url(http://at.alicdn.com/t/c/font_4016982_zibkc1dj04e.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+
+/* 移动适配 */
+html {
+    /* 100/750*100 */
+    font-size: 13.333333vw;
+}
+
+@media(min-width:750px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+body {
+    font-size: 12px;
+}

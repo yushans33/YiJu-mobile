@@ -1,0 +1,59 @@
+/* .list {
+    margin-top: 0.2rem;
+    border-bottom: 0.01rem solid #eee;
+    padding-bottom: 0.1rem;
+
+} */
+li {
+    border-bottom: 0.01rem solid #eee;
+    margin-bottom: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+
+.shoplist-item {
+    display: flex;
+
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+
+.shop-img {
+    width: 100%;
+}
+
+.shoplist-info {
+
+    width: 3rem;
+    margin-left: 0.2rem;
+}
+
+.shoplist-info p {
+    margin-bottom: 0.1rem;
+}
+
+
+.ping {
+    width: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.gray {
+    background-color: #aaa;
+    width: 1rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    margin-right: 0.15rem;
+    color: #fff;
+}
+
+.red {
+    background-color: #ff5555;
+    width: 1rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    margin-right: 0.15rem;
+    color: #fff;
+}

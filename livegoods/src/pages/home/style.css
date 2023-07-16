@@ -1,0 +1,75 @@
+/* 搜索 */
+.header {
+    height: 0.86rem;
+    /* 弹性布局 */
+    display: flex;
+    background-color: #ff5555;
+    color: #fff;
+    line-height: 0.86rem;
+}
+
+.location {
+    width: 1rem;
+    text-align: center;
+    font-size: 0.22rem;
+}
+
+.location a {
+    color: #fff;
+}
+
+.center {
+    flex: 1;
+    margin-top: 0.12rem;
+    height: 0.6rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+}
+
+.shopCar {
+    width: 1rem;
+    text-align: center;
+    font-size: 0.26rem;
+}
+
+/* 舍友 社区 */
+.content {
+    height: 1rem;
+    /* 弹性布局 */
+    display: flex;
+    /* background-color: skyblue; */
+    color: #fff;
+    line-height: 1rem;
+    margin: 0.2rem;
+    border-radius: 0.1rem;
+}
+
+.item {
+    width: 3rem;
+    text-align: center;
+    line-height: 1rem;
+    background-color: #ff5555;
+    font-size: 0.4rem;
+    border-radius: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+
+}
+
+.item:nth-child(1) {
+    margin-right: 0.2rem;
+
+}
+
+/* 热门房源 */
+.list {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+
+}
+
+.list h3 {
+    font-size: 0.26rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+}

@@ -1,0 +1,46 @@
+.current {
+    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+    margin-left: 0.1rem;
+    font-size: 0.26rem;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.cityName {
+    width: 1.38rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    color: #000;
+    opacity: 0.7;
+    display: block;
+    margin-left: 0.2rem;
+    border-radius: 0.1rem;
+}
+
+.cityContent {
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+
+.cityContent .cityName {
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+
+/* 右边26个字母隐藏--父级加了溢出隐藏 */
+.adm-index-bar {
+    overflow: unset;
+}
+
+.adm-index-bar-sidebar {
+    top: 21%
+}
+
+.adm-index-bar-sidebar-row {
+    margin-bottom: 0.15rem;
+}

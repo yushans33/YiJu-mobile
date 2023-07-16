@@ -1,0 +1,77 @@
+.adm-tabs-tab-line {
+    background-color: #ff5555;
+}
+
+.adm-tabs-tab-active {
+    color: #ff5555;
+}
+
+.faMsg {
+    margin: 0.16rem;
+    height: 0.8rem;
+    padding: 0 0.2rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-size: 0.2rem;
+}
+
+.li {
+    flex: 1;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+
+.li p {
+    margin-bottom: 0.1rem;
+
+}
+
+.li p:nth-child(1) {
+    color: #ff5555;
+}
+
+.faDel {
+    margin-top: 0.2rem;
+}
+
+.faDel p {
+    margin-bottom: 0.2rem;
+    font-size: 0.2rem;
+}
+
+
+.commentMsg {
+    margin-top: 0.2rem;
+    border-bottom: 0.01rem solid #ddd;
+}
+
+.commentMsg p {
+    margin-bottom: 0.05rem;
+}
+
+.icon-shoucang.active {
+    color: rgb(255, 174, 0);
+}
+
+.bottom {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff5555;
+    color: #fff;
+    font-size: 0.3rem;
+    display: flex;
+}
+
+.two {
+    flex: 1;
+    text-align: center;
+}
+
+.two:first-child {
+    border-right: 0.01rem solid #fff;
+}

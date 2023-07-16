@@ -1,0 +1,49 @@
+.box {
+    height: 3.45rem;
+    background-color: pink;
+    position: relative;
+
+}
+
+img {
+    width: 7.5rem;
+    height: 3.45rem
+}
+
+.wrapper {
+    height: 1.1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.info {
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.message {
+    margin-top: 0.1rem;
+}
+
+.type {
+    width: 1.13rem;
+    height: 0.52rem;
+    border: 0.01rem solid #265d80;
+    margin: 0.1rem 0;
+    line-height: 0.52rem;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+
+.price {
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+    color: #ff5555;
+    margin-left: 0.1rem;
+}
